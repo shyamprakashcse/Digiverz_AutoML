@@ -1,0 +1,109 @@
+
+.navdiv .tit{
+  color:white;
+  color: black;
+}
+
+.foot{
+  background-color: var(--red-700);
+  color:black; 
+  font-family: sans-serif;
+} 
+.navdiv{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    font-family:Sans Serif;
+    background-color: var(--red-700);
+  
+  }
+  
+  .footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    font-family:Sans Serif;
+    padding:2%;
+  }
+  
+  .navdiv h2{
+    color:white;
+  
+  }
+  .navdiv .btn{
+    width:inherit;
+    height:inherit;
+  }
+  .navdiv a{
+    width:100px;
+    height:50px;
+  
+    margin:1%;
+  }
+  
+  .brand{
+   margin:2%;
+   display:flex;
+   flex-direction:row;
+   justify-content:space-around;
+   font-family:Roboto;
+  
+  }
+  
+  .left img{
+    width:100%;
+    height:90vh;
+  }
+  
+  .right {
+    position:relative;
+    top:100px;
+    width:500px;
+    height:350px;
+     background-color:#fb7e7e;
+     color:white;
+     /* color:black;  */
+     
+
+     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  
+  
+  }
+  
+  .right h4,.right h2{
+    padding:12%;
+  }
+  
+  .feathead{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:2%; 
+    padding:2%;
+  }
+
+  .features .carder{
+
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .features .carder .cardimg{
+    width:18rem; 
+    height:20rem; 
+  }
+
+  
+  .features .carder .cardtxt{
+
+    font-weight: bold;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+  }

@@ -1,0 +1,123 @@
+.uploaddiv{
+    background-color: var(--purple-100);
+    font-family: 'Times New Roman', Times, serif;
+   
+   
+}
+
+.uploaddivtit{
+    margin-bottom: 1%;
+    /* background-color: aquamarine; */
+    /* background-color: bisque; */
+    background-color: var(--purple-500);
+    color: white;
+   
+}
+
+.uploadform{
+    width:max-content; 
+    border-left: 5px solid red; 
+   
+}
+
+.formcarder{
+    /* background-color: var(--purple-100); */
+    /* background-color: aquamarine; */
+    background-color: bisque;
+}
+
+.headings{
+    /* background-color:aquamarine; */
+    /* background-color: var(--purple-500); */
+    background-color: var(--yellow-100); 
+    width: max-content;
+    border-left:5px solid gold ; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.tab{
+    width:800px; 
+    height:500px; 
+    overflow: scroll; 
+    position: relative;
+    left:15%; 
+    border:1px solid black; 
+    margin-top:2%; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    
+    
+}
+
+.tab table{
+    font-weight: bold;
+}
+
+.retailzoomdrop{
+    margin:2%; 
+    font-weight: bold;
+    font-size: large;
+    
+  }
+  
+  .retailzoomcal{
+    margin:2%; 
+  }
+
+.tabtit{
+    /* background-color:var(--yellow-100);  */
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.preprocessdiv{
+    margin-top:2%;  
+    font-family:'Times New Roman', Times, serif;
+    background-color: var(--orange-100);
+}
+
+.preprocessdivbtn{
+    height: 50px;
+    width:100px; 
+    margin: 1%;
+}
+
+.processcapt{
+    width:max-content; 
+    border-left:5px solid gold; 
+    background-color: var(--yellow-100);
+}
+
+.algochart{
+    margin-top:2%; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.charttit{
+    background-color: aquamarine;
+    
+}
+
+.chartdesc{
+    width:max-content; 
+    border-left:5px solid gold; 
+    
+    background-color: var(--yellow-100);
+}
+
+.charttab{
+    background-color: var(--yellow-100);
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.charttab thead{
+    background-color: rgb(111, 111, 111);
+    color: white;
+}
+
+
+

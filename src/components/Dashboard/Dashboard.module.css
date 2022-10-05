@@ -1,0 +1,117 @@
+.dash{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.dashdiv{
+    display: flex;
+    background-color: var(--purple-100);
+    justify-content: space-around;
+    height:100px
+}
+
+.dashdiv button{
+     height: 50px;
+     width:100px; 
+     padding: 1%;
+     margin: 1%; 
+    
+}
+
+
+.dashhead{
+    background-color:var(--teal-500); 
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    height: fit-content; 
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    width:40%; 
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif; 
+    font-size:medium;
+   
+}
+
+.autoeda{
+    margin-top:2%;
+    margin-left: 3px;
+    border-left:2px solid black;
+    
+    
+}
+.autoedatit{
+    background-color: aquamarine;
+    /* position: relative;
+    left:30%; */
+    margin-bottom: 2%;
+    font-weight: bold;
+    
+    
+}
+
+.autoedatit:hover{
+    background-color: var(--yellow-300);
+}
+
+.edacapt{
+    background-color: var(--red-200);
+    border-left: 5px solid red;
+    width:fit-content;
+    
+}
+
+.autoedalist{
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: var(--red-100);
+    border-left:5px solid red; 
+    
+   
+
+}
+
+.autoedabtn{
+    /* background-color: black; */ 
+    /* background-color: var(--orange-300); */
+    background-color: var(--purple-400);
+    margin:1%; 
+    
+    font-weight: 700;
+    
+    
+    /* padding: 1%; */
+}
+
+.autoedadesc{
+    margin:1%;
+}
+
+.salescap{
+  background-color: var(--yellow-200);
+  border-left: 5px solid gold;
+}
+
+.sales div{
+    background-color: var(--purple-100);
+    border-left: 5px solid gold;
+}
+
+.sales div h3{
+   background-color: var(--purple-400); 
+  
+}
+
+.sales div h1{
+    background-color: var(--red-300);
+    
+}
+
+.copyright{
+    background-color: var(--red-100);
+    margin-top:1%; 
+}

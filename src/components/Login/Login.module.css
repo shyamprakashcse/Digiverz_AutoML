@@ -1,0 +1,119 @@
+
+.regdiv{
+    background-image: linear-gradient(to right top, #24b0c9, #00c3cc, #00d5c2, #00e5ac, #5ef28d);  
+    
+    /* background-image: linear-gradient(to right top, #efc8e4, #ffabc9, #ff8f9d, #ff7962, #eb7212); */
+    /* height:100vh;  */
+    height: max-content;
+}
+
+.loader{
+ width:100%; 
+ position:absolute; 
+ height:150vh; 
+ top:0; 
+
+ background-color: #050b3f;
+}
+
+.loadingbar{
+
+ position: relative;
+ top:20%; 
+ left:45%
+}
+.navdiv{
+   background-color: transparent;
+   border-bottom: 2px solid black;
+   padding-bottom: 1%;
+   display:flex;
+   flex-direction:row;
+   justify-content:space-around;
+   font-family:Sans Serif;
+   /* background-color: var(--red-700); */
+}
+
+
+ .navdiv .btn{
+   width:inherit;
+   height:inherit;
+ }
+ .navdiv a{
+   width:100px;
+   height:50px;
+ 
+   margin:1%;
+ }
+
+.regformdiv{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 5%; 
+   
+   font-family: sans-serif;
+   /* background-image: linear-gradient(to right top, #24b0c9, #00c3cc, #00d5c2, #00e5ac, #5ef28d);  */
+   /* background-image: linear-gradient(to right top, #051937, #002768, #273199, #5f30c6, #9f12eb); */
+}
+
+.leftside{
+   width:40%; 
+ 
+   border-right: 2px solid black;
+
+}
+
+.leftside img{
+   width:80%;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+   cursor: pointer;
+   border-radius: 50% ;
+   -webkit-border-radius: 50% ;
+   -moz-border-radius: 50% ;
+   -ms-border-radius: 50% ;
+   -o-border-radius: 50% ;
+}
+.formdiv{
+ display: flex;
+ flex-direction: column;
+ 
+ /* background-image: linear-gradient(to right top, #24b0c9, #00c3cc, #00d5c2, #00e5ac, #5ef28d); */
+ /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+ box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+   cursor: pointer;
+  /* border:2px solid red;  */
+  margin:2%; 
+  padding: 5%;
+}
+
+.formdiv div{
+   margin-bottom: 6%;
+}
+
+
+.formdiv .formtitle{
+  
+   margin:5%;
+}
+
+.footer{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-around;
+   font-family:Sans Serif;
+   padding:2%;
+ }
+
+ .foot{
+   /* background-color: var(--red-700); */
+   
+   color:black; 
+   font-family: sans-serif;
+ } 

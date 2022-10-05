@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+src/components/EDA_Uploader
+src/components/EDAReport
+src/components/IEDA 
+src/components/Demo/
+# src/components/MLAlgoAnalyser/
+src/components/ReportHistory 
+src/components/Retail_Regression/
+src/components/Retail_Segmentation/
+src/components/Retailer/
+src/components/RetailRegressionHistory/
+src/components/SalesForcastBrain/
+src/components/SalesForecast/
+src/components/SalesModelBuilder/
+src/components/SalesModelReport/
+src/components/SFReportHistory/
+
